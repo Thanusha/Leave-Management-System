@@ -9,17 +9,46 @@ namespace Leave_Management_System.Controllers
 {
     public class LeaveController
     {
+        DBHandler handler;
+
+        public LeaveController()
+        {
+            handler = new DBHandler();
+        }
 
         public int newLeave(Leave leave)
         {
-            DBHandler handler = new DBHandler();
             return handler.newLeaveMethod(leave);
         }
 
         public Leave[] allUserLeaves(string userID)
         {
-            DBHandler handler = new DBHandler();
             return handler.userAllLeavesMethod(userID);
+        }
+
+        public int deleteLeave(string leaveID)
+        {
+            return handler.deleteLeaveMethod(leaveID);
+        }
+
+        public int updateLeave(Leave leave)
+        {
+            return handler.updateLeaveMethod(handler);
+        }
+
+        public int rejectLeave(Leave leave)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int acceptLeave(Leave leave)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Leave[] hrLeaveRequests()
+        {
+            return handler.hrLeaveRequestMethod();
         }
     }
 }

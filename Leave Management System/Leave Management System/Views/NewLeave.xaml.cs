@@ -52,6 +52,7 @@ namespace Leave_Management_System.Views
                 leave.ToDate = to_date_picker.Date.ToString();
                 leave.Status = 2;
                 leave.UserID = userNIC;
+                leave.LeaveID = "TestingID123";
 
                 LeaveController controller = new LeaveController();
                 int status = controller.newLeave(leave);

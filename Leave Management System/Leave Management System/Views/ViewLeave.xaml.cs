@@ -37,7 +37,7 @@ namespace Leave_Management_System.Views
             Object[] arr = e.Parameter as Object[];
             user = arr[0] as User;
             leave = arr[1] as Leave;
-
+            
             reason_box.Text = leave.Reason;
             from_box.Text = leave.FromDate;
             to_box.Text = leave.ToDate;

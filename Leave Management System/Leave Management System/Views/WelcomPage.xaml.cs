@@ -1,4 +1,5 @@
-﻿using Leave_Management_System.Models;
+﻿using Leave_Management_System.Controllers;
+using Leave_Management_System.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -33,6 +34,7 @@ namespace Leave_Management_System.Views
             user = e.Parameter as User;
             fname_txtblock.Text = user.FirstName;
             lname_txtblock.Text = user.LastName;
+            total_box.Text = user.TotalLeaves.ToString();           
         }
 
         private void new_btn_Click(object sender, RoutedEventArgs e)

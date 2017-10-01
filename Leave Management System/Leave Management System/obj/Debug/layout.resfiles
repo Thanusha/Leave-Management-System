@@ -7,6 +7,7 @@ Assets\WideLogo.scale-240.png
 App.xbf
 Leave Management System.xr.xml
 MainPage.xbf
+Views\HRViewLeave.xbf
 Views\HRWelcomPage.xbf
 Views\LoginPage.xbf
 Views\NewLeave.xbf

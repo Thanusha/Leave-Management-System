@@ -8,7 +8,23 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <DataTemplate x:Name="LeaveListTemplate">
+            <StackPanel Margin="10, 5, 10, 10" Orientation="Vertical">
+                <TextBlock FontSize="20" Text="{Binding UserID}"/>
+                <TextBlock FontSize="20" Text="{Binding Reason}"/>
+                <TextBlock FontSize="20" Text="{Binding ToDate}"/>                
+                <TextBlock FontSize="20" Text="{Binding FromDate}"/>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+    
     <Grid>
+        <TextBlock x:Name="fname_block" FontSize="40" HorizontalAlignment="Left" Margin="20,19,0,0" TextWrapping="Wrap" Text="Nuwan" VerticalAlignment="Top" Width="256"/>
+        <TextBlock x:Name="lname_block" FontSize="25" HorizontalAlignment="Left" Margin="20,68,0,0" TextWrapping="Wrap" Text="Fernando" VerticalAlignment="Top" Width="256"/>
+        <Button x:Name="logout_btn" Content="Log Out" HorizontalAlignment="Left" Margin="281,33,0,0" VerticalAlignment="Top" Click="logout_btn_Click"/>
+        <ListView x:Name="leave_approval_listView" ItemTemplate="{StaticResource  LeaveListTemplate}" IsItemClickEnabled="True" ItemClick="leave_approval_listView_ItemClick" HorizontalAlignment="Left" Height="448" Margin="24,149,0,0" VerticalAlignment="Top" Width="352"/>
+        <TextBlock x:Name="hr_block" FontSize="14" HorizontalAlignment="Left" Margin="294,19,0,0" TextWrapping="Wrap" Text="HR Personnel" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

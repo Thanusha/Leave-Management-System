@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Leave_Management_System.Controllers;
+using Leave_Management_System.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,9 +19,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Leave_Management_System.Views
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    
     public sealed partial class HRWelcomPage : Page
     {
         public HRWelcomPage()
@@ -27,13 +27,32 @@ namespace Leave_Management_System.Views
             this.InitializeComponent();
         }
 
-        /// <summary>
-        /// Invoked when this page is about to be displayed in a Frame.
-        /// </summary>
-        /// <param name="e">Event data that describes how this page was reached.
-        /// This parameter is typically used to configure the page.</param>
+        User user = new User();
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            user = e.Parameter as User;
+            fname_block.Text = user.FirstName;
+            lname_block.Text = user.LastName;
+
+            LeaveController controller = new LeaveController();
+            leave_approval_listView.ItemsSource =  controller.hrLeaveRequests();
+        }
+
+        private void leave_approval_listView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Leave leave = e.ClickedItem as Leave;
+
+            Object[] objArr = new Object[2];
+            objArr[0] = user;
+            objArr[1] = leave;
+
+            Frame.Navigate(typeof(HRViewLeave), objArr);
+        }
+
+        private void logout_btn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(LoginPage));
         }
     }
 }
