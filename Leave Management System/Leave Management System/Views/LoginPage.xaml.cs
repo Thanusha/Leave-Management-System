@@ -28,6 +28,7 @@ namespace Leave_Management_System.Views
         
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            invalid_txtblock.Text = "";
         }
 
         private void login_btn_Click(object sender, RoutedEventArgs e)
@@ -40,7 +41,7 @@ namespace Leave_Management_System.Views
                 //Pass the user obj param if needed.
                 if(user == null)
                 {
-
+                    invalid_txtblock.Text = "Invalid Credentials";
                 }
                 else if(user.IsHR)
                 {

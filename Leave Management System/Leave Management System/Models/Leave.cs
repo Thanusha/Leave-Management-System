@@ -9,8 +9,8 @@ namespace Leave_Management_System.Models
     public class Leave
     {
         private string userID;
-        private DateTime fromDate;
-        private DateTime toDate;
+        private string fromDate;
+        private string toDate;
         private string reason;
         private string leaveID;
         private int status;
@@ -21,13 +21,13 @@ namespace Leave_Management_System.Models
             set { this.userID = value; }
         }
 
-        public DateTime FromDate
+        public string FromDate
         {
             get { return this.fromDate; }
             set { this.fromDate = value; }
         }
 
-        public DateTime ToDate
+        public string ToDate
         {
             get { return this.toDate; }
             set { this.toDate = value; }
@@ -50,5 +50,7 @@ namespace Leave_Management_System.Models
             get { return this.status; }
             set { this.status = value; }
         }
+
+        //Status : Accepted - 0, Rejected - 1, Pending - 2
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Leave_Management_System.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +32,13 @@ namespace Leave_Management_System.Controllers
             {
                 return null;
             }            
+        }
+
+        public int newLeaveMethod(Leave leave)
+        {
+            Debug.WriteLine(leave.Reason + " || " + leave.FromDate + " || " + leave.ToDate + " || " + leave.Status + " || " + leave.UserID);
+
+            return 1;
         }
         
     }

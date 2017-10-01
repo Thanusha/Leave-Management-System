@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Leave_Management_System.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,13 @@ using System.Threading.Tasks;
 
 namespace Leave_Management_System.Controllers
 {
-    class LeaveController
+    public class LeaveController
     {
+
+        public int newLeave(Leave leave)
+        {
+            DBHandler handler = new DBHandler();
+            return handler.newLeaveMethod(leave);
+        }
     }
 }

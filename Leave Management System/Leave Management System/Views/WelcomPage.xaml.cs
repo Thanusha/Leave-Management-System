@@ -36,9 +36,8 @@ namespace Leave_Management_System.Views
         }
 
         private void new_btn_Click(object sender, RoutedEventArgs e)
-        {
-            
-            Frame.Navigate(typeof(NewLeave), user.NIC);
+        {            
+            Frame.Navigate(typeof(NewLeave), user);
         }
 
         
