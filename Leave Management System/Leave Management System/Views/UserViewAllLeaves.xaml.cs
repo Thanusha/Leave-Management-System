@@ -45,7 +45,13 @@ namespace Leave_Management_System.Views
 
         private void all_leaves_list_ItemClick(object sender, ItemClickEventArgs e)
         {
+            Leave leave = e.ClickedItem as Leave;
 
+            Object[] objArr = new Object[2];
+            objArr[0] = user;
+            objArr[1] = leave;
+
+            Frame.Navigate(typeof(ViewLeave), objArr);
         }
     }
 }

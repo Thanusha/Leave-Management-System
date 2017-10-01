@@ -107,3 +107,8 @@ D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management Syst
 D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.g.cs
 D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.xaml
 D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.xbf
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\bin\Debug\Views\ViewLeave.xbf
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\ViewLeave.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\ViewLeave.g.cs
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\ViewLeave.xaml
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\ViewLeave.xbf

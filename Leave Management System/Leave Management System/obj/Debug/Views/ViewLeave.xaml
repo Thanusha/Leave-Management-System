@@ -18,8 +18,9 @@
         <TextBlock x:Name="from_box" TextTrimming="CharacterEllipsis" HorizontalAlignment="Left" Margin="208,167,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="22" VerticalAlignment="Top" Width="182"/>
         <TextBlock x:Name="to_box" TextTrimming="CharacterEllipsis" HorizontalAlignment="Left" Margin="208,226,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="22" VerticalAlignment="Top" Width="182"/>
         <TextBlock x:Name="status_box" TextTrimming="CharacterEllipsis" HorizontalAlignment="Left" Margin="208,287,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="22" VerticalAlignment="Top" Width="182"/>
-        <Button x:Name="cancel_btn" Content="Back" HorizontalAlignment="Left" Margin="144,563,0,0" VerticalAlignment="Top" Click="cancel_btn_Click"/>
-        <Button x:Name="edit_btn" Content="Edit" HorizontalAlignment="Left" Margin="238,440,0,0" VerticalAlignment="Top" Click="edit_btn_Click"/>
-        <Button x:Name="delete_btn" Content="Delete" HorizontalAlignment="Left" Margin="58,440,0,0" VerticalAlignment="Top" Click="delete_btn_Click"/>
+        <Button x:ConnectionId='1' x:Name="cancel_btn" Content="Cancel" HorizontalAlignment="Left" Margin="144,563,0,0" VerticalAlignment="Top"                         />
+        <Button x:ConnectionId='2' x:Name="edit_btn" Content="Edit" HorizontalAlignment="Left" Margin="238,440,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='3' x:Name="delete_btn" Content="Delete" HorizontalAlignment="Left" Margin="58,440,0,0" VerticalAlignment="Top"                         />
     </Grid>
 </Page>
+

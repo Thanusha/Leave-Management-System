@@ -22,7 +22,7 @@
         <TextBlock x:Name="header_txt" FontSize="36" HorizontalAlignment="Left" Margin="18,28,0,0" TextWrapping="Wrap" Text="All Leaves" VerticalAlignment="Top"/>
         <TextBlock x:Name="user_name_txt" FontSize="26" HorizontalAlignment="Left" Margin="18,112,0,0" TextWrapping="Wrap" Text="Thanusha Nirmana" VerticalAlignment="Top"/>
         <Button x:Name="back_btn" Content="Back" HorizontalAlignment="Left" Margin="145,563,0,0" VerticalAlignment="Top" Click="back_btn_Click"/>
-        <ListView x:Name="all_leaves_list" ItemTemplate="{StaticResource LeaveListTemplate}" HorizontalAlignment="Left" Height="376" Margin="18,167,0,0" VerticalAlignment="Top" Width="360" ItemClick="all_leaves_list_ItemClick"/>
+        <ListView x:Name="all_leaves_list" IsItemClickEnabled="True" ItemTemplate="{StaticResource LeaveListTemplate}" HorizontalAlignment="Left" Height="376" Margin="18,167,0,0" VerticalAlignment="Top" Width="360" ItemClick="all_leaves_list_ItemClick"/>
 
     </Grid>
 </Page>

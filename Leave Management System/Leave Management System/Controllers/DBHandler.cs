@@ -45,7 +45,7 @@ namespace Leave_Management_System.Controllers
         {
             Leave[] leaveList = new Leave[10];
 
-            leaveList[0] = new Leave() { Reason = "Sickness 1", Status = 2, UserID = "10", LeaveID = "123", FromDate = new DateTime(2017, 10, 01).ToString(), ToDate = new DateTime(2017, 10, 03).ToString() };
+            leaveList[0] = new Leave() { Reason = "Sickness 1", Status = 0, UserID = "10", LeaveID = "123", FromDate = new DateTime(2017, 10, 01).ToString(), ToDate = new DateTime(2017, 10, 03).ToString() };
             leaveList[1] = new Leave() { Reason = "Sickness 2", Status = 2, UserID = "11", LeaveID = "124", FromDate = new DateTime(2017, 10, 01).ToString(), ToDate = new DateTime(2017, 10, 03).ToString() };
             leaveList[2] = new Leave() { Reason = "Sickness 3", Status = 2, UserID = "12", LeaveID = "125", FromDate = new DateTime(2017, 10, 01).ToString(), ToDate = new DateTime(2017, 10, 03).ToString() };
             leaveList[3] = new Leave() { Reason = "Sickness 4", Status = 2, UserID = "13", LeaveID = "126", FromDate = new DateTime(2017, 10, 01).ToString(), ToDate = new DateTime(2017, 10, 03).ToString() };

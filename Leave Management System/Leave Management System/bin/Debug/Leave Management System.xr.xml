@@ -44,6 +44,7 @@
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="TextTrimming" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Leave_Management_System.Views.LoginPage" />
@@ -64,15 +65,18 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Leave_Management_System.Views.UserViewAllLeaves" />
+    <RootType FullName="Leave_Management_System.Views.ViewLeave" />
     <RootType FullName="Leave_Management_System.Views.WelcomPage" />
   </Roots.RootTypes>
 </Roots>

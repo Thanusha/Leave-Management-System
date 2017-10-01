@@ -124,7 +124,7 @@ namespace Leave_Management_System.Leave_Management_System_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "Leave_Management_System.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -132,9 +132,10 @@ namespace Leave_Management_System.Leave_Management_System_XamlTypeInfo
             _typeNameTable[4] = "Leave_Management_System.Views.LoginPage";
             _typeNameTable[5] = "Leave_Management_System.Views.NewLeave";
             _typeNameTable[6] = "Leave_Management_System.Views.UserViewAllLeaves";
-            _typeNameTable[7] = "Leave_Management_System.Views.WelcomPage";
+            _typeNameTable[7] = "Leave_Management_System.Views.ViewLeave";
+            _typeNameTable[8] = "Leave_Management_System.Views.WelcomPage";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::Leave_Management_System.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -142,7 +143,8 @@ namespace Leave_Management_System.Leave_Management_System_XamlTypeInfo
             _typeTable[4] = typeof(global::Leave_Management_System.Views.LoginPage);
             _typeTable[5] = typeof(global::Leave_Management_System.Views.NewLeave);
             _typeTable[6] = typeof(global::Leave_Management_System.Views.UserViewAllLeaves);
-            _typeTable[7] = typeof(global::Leave_Management_System.Views.WelcomPage);
+            _typeTable[7] = typeof(global::Leave_Management_System.Views.ViewLeave);
+            _typeTable[8] = typeof(global::Leave_Management_System.Views.WelcomPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -182,7 +184,8 @@ namespace Leave_Management_System.Leave_Management_System_XamlTypeInfo
         private object Activate_4_LoginPage() { return new global::Leave_Management_System.Views.LoginPage(); }
         private object Activate_5_NewLeave() { return new global::Leave_Management_System.Views.NewLeave(); }
         private object Activate_6_UserViewAllLeaves() { return new global::Leave_Management_System.Views.UserViewAllLeaves(); }
-        private object Activate_7_WelcomPage() { return new global::Leave_Management_System.Views.WelcomPage(); }
+        private object Activate_7_ViewLeave() { return new global::Leave_Management_System.Views.ViewLeave(); }
+        private object Activate_8_WelcomPage() { return new global::Leave_Management_System.Views.WelcomPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -237,9 +240,16 @@ namespace Leave_Management_System.Leave_Management_System_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 7:   //  Leave_Management_System.Views.WelcomPage
+            case 7:   //  Leave_Management_System.Views.ViewLeave
                 userType = new global::Leave_Management_System.Leave_Management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_WelcomPage;
+                userType.Activator = Activate_7_ViewLeave;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Leave_Management_System.Views.WelcomPage
+                userType = new global::Leave_Management_System.Leave_Management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_WelcomPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
