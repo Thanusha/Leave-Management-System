@@ -15,5 +15,11 @@ namespace Leave_Management_System.Controllers
             DBHandler handler = new DBHandler();
             return handler.newLeaveMethod(leave);
         }
+
+        public Leave[] allUserLeaves(string userID)
+        {
+            DBHandler handler = new DBHandler();
+            return handler.userAllLeavesMethod(userID);
+        }
     }
 }

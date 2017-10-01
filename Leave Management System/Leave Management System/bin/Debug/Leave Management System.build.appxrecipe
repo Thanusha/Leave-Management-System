@@ -63,6 +63,9 @@
     <AppxPackagedFile Include="D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\bin\Debug\Views\NewLeave.xbf">
       <PackagePath>Views\NewLeave.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\bin\Debug\Views\UserViewAllLeaves.xbf">
+      <PackagePath>Views\UserViewAllLeaves.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\bin\Debug\Views\WelcomPage.xbf">
       <PackagePath>Views\WelcomPage.xbf</PackagePath>
     </AppxPackagedFile>

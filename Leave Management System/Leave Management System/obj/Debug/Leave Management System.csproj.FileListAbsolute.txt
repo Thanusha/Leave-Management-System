@@ -102,3 +102,8 @@ D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management Syst
 D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\qualifiers.txt.intermediate
 D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\ProjectArchitectures.txt
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\bin\Debug\Views\UserViewAllLeaves.xbf
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.g.cs
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.xaml
+D:\Projects\Thanusha\Group Project\Leave-Management-System\Leave Management System\Leave Management System\obj\Debug\Views\UserViewAllLeaves.xbf

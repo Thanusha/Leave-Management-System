@@ -10,4 +10,5 @@ MainPage.xbf
 Views\HRWelcomPage.xbf
 Views\LoginPage.xbf
 Views\NewLeave.xbf
+Views\UserViewAllLeaves.xbf
 Views\WelcomPage.xbf

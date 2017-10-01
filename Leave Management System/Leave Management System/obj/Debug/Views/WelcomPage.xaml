@@ -12,8 +12,8 @@
         <TextBlock x:Name="fname_txtblock" FontSize="40" HorizontalAlignment="Left" Margin="10,22,0,0" TextWrapping="Wrap" Text="Thanusha" VerticalAlignment="Top" Height="51" Width="254"/>
         <TextBlock x:Name="lname_txtblock" FontSize="25" HorizontalAlignment="Left" Margin="14,74,0,0" TextWrapping="Wrap" Text="Wijayawardhane" VerticalAlignment="Top" Height="40" Width="250" Foreground="LightGray"/>
         <Button x:ConnectionId='1' x:Name="new_btn" Content="New" HorizontalAlignment="Left" Margin="145,565,0,0" VerticalAlignment="Top"                      />
-        <Button x:Name="view_btn" Content="View All" HorizontalAlignment="Left" Margin="14,124,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="view_account_btn" Content="Profile" HorizontalAlignment="Left" Margin="272,38,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='2' x:Name="view_btn" Content="View All" HorizontalAlignment="Left" Margin="14,124,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='3' x:Name="logout_btn" Content="Log Out" HorizontalAlignment="Left" Margin="272,38,0,0" VerticalAlignment="Top"                         />
 
     </Grid>
 </Page>

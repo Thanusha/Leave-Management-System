@@ -1,4 +1,5 @@
-﻿using Leave_Management_System.Models;
+﻿using Leave_Management_System.Controllers;
+using Leave_Management_System.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -18,36 +19,33 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Leave_Management_System.Views
 {
-    
-    public sealed partial class WelcomPage : Page
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class UserViewAllLeaves : Page
     {
-        public WelcomPage()
+        public UserViewAllLeaves()
         {
             this.InitializeComponent();
         }
 
         User user = new User();
-        
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             user = e.Parameter as User;
-            fname_txtblock.Text = user.FirstName;
-            lname_txtblock.Text = user.LastName;
+            LeaveController controller = new LeaveController();            
+            all_leaves_list.ItemsSource = controller.allUserLeaves(user.NIC);
         }
 
-        private void new_btn_Click(object sender, RoutedEventArgs e)
-        {            
-            Frame.Navigate(typeof(NewLeave), user);
-        }
-
-        private void logout_btn_Click(object sender, RoutedEventArgs e)
+        private void back_btn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(LoginPage));
+            Frame.Navigate(typeof(WelcomPage), user);
         }
 
-        private void view_btn_Click(object sender, RoutedEventArgs e)
+        private void all_leaves_list_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Frame.Navigate(typeof(UserViewAllLeaves), user);
+
         }
     }
 }

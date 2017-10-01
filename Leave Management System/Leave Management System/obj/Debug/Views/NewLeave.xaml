@@ -11,8 +11,8 @@
     <Grid>
         <DatePicker x:Name="from_date_picker" HorizontalAlignment="Left" Margin="184,229,0,0" VerticalAlignment="Top" Width="151"/>
         <DatePicker x:Name="to_date_picker" HorizontalAlignment="Left" Margin="184,306,0,0" VerticalAlignment="Top" Width="151"/>
-        <Button x:Name="cancel_btn" Content="Cancel" HorizontalAlignment="Left" Margin="63,558,0,0" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='1' x:Name="apply_btn" Content="Apply" HorizontalAlignment="Left" Margin="226,558,0,0" VerticalAlignment="Top"                        />
+        <Button x:ConnectionId='1' x:Name="cancel_btn" Content="Cancel" HorizontalAlignment="Left" Margin="63,558,0,0" VerticalAlignment="Top"                         />
+        <Button x:ConnectionId='2' x:Name="apply_btn" Content="Apply" HorizontalAlignment="Left" Margin="226,558,0,0" VerticalAlignment="Top"                        />
         <TextBox x:Name="reason_textBox" PlaceholderText="Reason Briefly" HorizontalAlignment="Left" Margin="63,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272"/>
         <TextBlock x:Name="to_date_txt" FontSize="20" HorizontalAlignment="Left" Margin="63,323,0,0" TextWrapping="Wrap" Text="To Date" VerticalAlignment="Top"/>
         <TextBlock x:Name="from_date_txt" FontSize="20" HorizontalAlignment="Left" Margin="63,246,0,0" TextWrapping="Wrap" Text="From Date" VerticalAlignment="Top"/>

@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Leave_Management_System.Views.UserViewAllLeaves"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Leave_Management_System.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <DataTemplate x:Name="LeaveListTemplate">
+            <StackPanel Margin="10, 5, 10, 10" Orientation="Vertical">
+                <TextBlock FontSize="20" Text="{Binding Reason}"/>
+                <TextBlock FontSize="20" Text="{Binding ToDate}"/>
+                <TextBlock FontSize="20" Text="{Binding FromDate}"/>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <TextBlock x:Name="header_txt" FontSize="36" HorizontalAlignment="Left" Margin="18,28,0,0" TextWrapping="Wrap" Text="All Leaves" VerticalAlignment="Top"/>
+        <TextBlock x:Name="user_name_txt" FontSize="26" HorizontalAlignment="Left" Margin="18,112,0,0" TextWrapping="Wrap" Text="Thanusha Nirmana" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='1' x:Name="back_btn" Content="Back" HorizontalAlignment="Left" Margin="145,563,0,0" VerticalAlignment="Top"                       />
+        <ListView x:Name="all_leaves_list" ItemTemplate="{StaticResource LeaveListTemplate}" HorizontalAlignment="Left" Height="376" Margin="18,167,0,0" VerticalAlignment="Top" Width="360"/>
+
+    </Grid>
+</Page>
+

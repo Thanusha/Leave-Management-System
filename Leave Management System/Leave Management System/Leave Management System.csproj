@@ -104,6 +104,12 @@
     <Compile Include="Views\NewLeave.xaml.cs">
       <DependentUpon>NewLeave.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\UserViewAllLeaves.xaml.cs">
+      <DependentUpon>UserViewAllLeaves.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ViewLeave.xaml.cs">
+      <DependentUpon>ViewLeave.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\WelcomPage.xaml.cs">
       <DependentUpon>WelcomPage.xaml</DependentUpon>
     </Compile>
@@ -139,6 +145,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\NewLeave.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UserViewAllLeaves.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ViewLeave.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
