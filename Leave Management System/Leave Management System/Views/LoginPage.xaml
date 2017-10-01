@@ -11,7 +11,10 @@
     <Grid>
         <TextBox x:Name="username_box" HorizontalAlignment="Left" Margin="50,213,0,0" TextWrapping="Wrap" PlaceholderText="User Name" Text="" VerticalAlignment="Top" Width="303"/>
         <TextBox x:Name="password_box" HorizontalAlignment="Left" Margin="50,290,0,0" TextWrapping="Wrap" PlaceholderText="Password" Text="" VerticalAlignment="Top" Width="303"/>
-        <Button x:Name="login_btn" Content="Login" HorizontalAlignment="Left" Margin="144,407,0,0" VerticalAlignment="Top" Click="login_btn_Click"/>
+        <Button x:Name="login_btn" Content="Login" HorizontalAlignment="Left" Margin="144,396,0,0" VerticalAlignment="Top" Click="login_btn_Click"/>
+        <TextBlock x:Name="invalid_txtblock" Foreground="red" TextAlignment="Center" FontSize="14" HorizontalAlignment="Left" Margin="50,511,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="303"/>
+        <TextBlock x:Name="header_txt" FontSize="38" HorizontalAlignment="Left" Margin="50,29,0,0" TextWrapping="Wrap" Text="Leaves" VerticalAlignment="Top"/>
+        <TextBlock x:Name="header_txt2" FontSize="38" HorizontalAlignment="Left" Margin="50,80,0,0" TextWrapping="Wrap" Text="Management" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
