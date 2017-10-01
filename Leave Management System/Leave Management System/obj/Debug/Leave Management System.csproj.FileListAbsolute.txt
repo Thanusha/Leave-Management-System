@@ -1,0 +1,52 @@
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\App.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\MainPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Views\HRWelcomPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Views\LoginPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Views\NewLeave.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Views\WelcomPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.xr.xml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.exe
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.pdb
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\resources.pri
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\AppxManifest.xml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.build.appxrecipe
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\App.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\App.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\MainPage.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\MainPage.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\HRWelcomPage.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\HRWelcomPage.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\LoginPage.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\LoginPage.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\NewLeave.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\NewLeave.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\WelcomPage.g.i.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\WelcomPage.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\XamlTypeInfo.g.cs
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\App.xaml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\MainPage.xaml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\HRWelcomPage.xaml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\LoginPage.xaml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\NewLeave.xaml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\WelcomPage.xaml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\App.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\MainPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\HRWelcomPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\LoginPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\NewLeave.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Views\WelcomPage.xbf
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\XamlSaveStateFile.xml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.exe
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.pdb
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\priconfig.xml
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\priconfig.xml.intermediate
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\layout.resfiles
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\layout.resfiles.intermediate
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\resources.resfiles
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\resources.resfiles.intermediate
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\pri.resfiles
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\pri.resfiles.intermediate
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\qualifiers.txt
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\qualifiers.txt.intermediate
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Projects\Thanusha\Group Project\Leave Management System\Leave Management System\obj\Debug\ProjectArchitectures.txt
